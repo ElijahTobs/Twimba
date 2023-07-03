@@ -38,3 +38,12 @@ button{
   font-size: 20px;
   font-weight: 600;
 }
+
+
+/* images */
+
+.profile-pic{
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  width: 48px;
+}
