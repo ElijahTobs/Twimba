@@ -1,0 +1,1 @@
+import { tweetsData } from "/js/data.js";
