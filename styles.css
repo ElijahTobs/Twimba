@@ -12,9 +12,6 @@ h1{
   font-size: 20px;
 }
 
-
-
-
 /* layout */
 
 main, header{
@@ -31,7 +28,6 @@ header{
   align-items: flex-start;
   gap: 10px;
 }
-
 
 /* Button + Textarea*/
 
