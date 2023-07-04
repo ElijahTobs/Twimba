@@ -13,6 +13,8 @@ h1{
 }
 
 
+
+
 /* layout */
 
 main, header{
@@ -22,6 +24,12 @@ main, header{
 
 header{
   padding-bottom: 25px;
+}
+
+.tweet-input-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 
@@ -48,6 +56,53 @@ textarea{
   font-size: 20px;
   line-height: 30px;
   resize: none;
+}
+
+/* tweet */
+
+.tweet{
+  border-top: 1px solid lightgray;
+  padding: 20px 0 0 0;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.tweet-inner{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.tweet-details{
+  display: flex;
+  font-size: 13px;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.tweet-detail{
+  display: flex;
+  gap: 4px;
+}
+
+.tweet-reply{
+  border-top: 1px solid lightgray;
+  padding: 20px 0 0 0px;
+  margin: 10px 0 10px 40px;
+  width: 80%;
+}
+
+.handle{
+  font-size: 12px;
+  font-weight: 500;
+  color: #555;
+  margin-top: 0;
+}
+
+.tweet-text{
+  width: 207px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 /* images */
