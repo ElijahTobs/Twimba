@@ -25,7 +25,7 @@ header{
 }
 
 
-/* Button */
+/* Button + Textarea*/
 
 button{
   background-color: #1DA1F2;
@@ -39,6 +39,16 @@ button{
   font-weight: 600;
 }
 
+textarea{
+  border: none;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  resize: none;
+}
 
 /* images */
 
